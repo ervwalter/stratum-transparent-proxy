@@ -1,0 +1,16 @@
+{
+  "name": "stratum-transparent-proxy",
+  "description": "Transparent, share-logging proxy for stratum mining.",
+  "author": "Erv Walter <erv@ewal.net>",
+  "version": "0.0.1",
+  "dependencies": {
+    "bignum": "~0.6.1",
+    "request-json": "~0.4.4",
+    "config": "~0.4.29",
+    "carrier": "~0.1.13",
+    "moment": "~2.4.0",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {},
+  "engine": "node >= 0.10.0"
+}
