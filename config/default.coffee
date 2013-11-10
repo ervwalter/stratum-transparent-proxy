@@ -2,11 +2,12 @@ module.exports = {
 	name: 'stratum-proxy'
 	pools: [
 		{
-			host: 'stratum.btcguild.com'
+			host: 'btcguild-private'
 			port: 3333
 			listenPort: 7001
-			userMappings: {
-				'username': 'devicename'
+			devices: {
+				'devicename1' : { username: 'pool_username', password: 'pool_password' }
+				'devicename2' : { username: 'pool_username', password: 'pool_password' }
 			}
 		}
 	]
